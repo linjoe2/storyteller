@@ -1,8 +1,11 @@
 $(document).ready(function() {
 	$("#submitIt").click(function() {
 		var name1 = $("#name1").val();
+		var name1gen = $("#name1gen").val();
 		var name2 = $("#name2").val();
+		var name2gen = $("#name2gen").val();
 		var name3 = $("#name3").val();
+		var name3gen = $("#name3gen").val();
 		var object1 = $("#object1").val();
 		// var object2 = $("#object2").val();
 		var action1 = $("#action1").val();
@@ -21,6 +24,14 @@ $(document).ready(function() {
 		$("#coverdiv").fadeIn(500);
 		$("#objectbox").fadeIn(500);
 	});
+	$("#playVoice").click(function() {
+		var story = jQuery('.story').text();
+	responsiveVoice.speak(story, "UK English Male", {rate: 0.8});
+	})
+
+	$("#stopVoice").click(function() {
+		responsiveVoice.cancel();
+	})
 
 
 	$("#coverdiv, #objectbox").click(function() {
