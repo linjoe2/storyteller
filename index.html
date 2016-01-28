@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="./js/reader.js"></script>
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 </head>
 <body>
 	<div id="invoerscherm">
-		<form action="">
-			<input type="text" id='name1' rows="5" placeholder ="your name"></input>
-			<select>
-				<option value="male">male</option>
-				<option value="female">female</option>
-			</select>
-			<input type="text" id="name2" placeholder="friends name"><br>
-			<select>
-				<option value="male">male</option>
-				<option value="female">female</option>
-			</select>
-			<input type="text" id="Email" placeholder="first object"><br>
-			<input type="button" id="submitIt" value="Submit">
+		<form action="" class="form-group col-md-3">
+			<input type="text" id='name1' class="form-control" placeholder ="female name"><br>
+			<input type="text" id="name2" class="form-control" placeholder="female name"><br>
+			<input type="text" id='name3' class="form-control" placeholder ="male name"><br>
+			<input type="text" id="object1" class="form-control" placeholder="object"><br>
+			<input type="text" id="action1" class="form-control" placeholder="first action"><br>
+			<input type="text" id="action2" class="form-control" placeholder="second action"><br>
+			<input type="text" id="bodypart" class="form-control" placeholder="bodypart"><br>
+			<input type="button" class="btn btn-default" id="submitIt" value="Submit">
 		</form>
 	</div>
+
+			<div class="story">
+				<h1>story</h1>
+				<p>One day, <span class="name1box">name1</span>&#39;s mother said to her, &#8220;Take this <span class="object1box">object1</span> to <span class="name2box">name2</span>&#39;s cottage, but don&#39;t talk to strangers on the way!&#8221; Promising not to, <span class="name1box">name1</span> skipped off. On her way she met the Big Bad <span class="name3box">name3</span> who asked, &#8220;Where are you going, little girl?&#8221; &#8220;To my <span class="name2box">name2</span>&#39;s, Mr. <span class="name3box">name3</span>!&#8221; she answered.
+<span class="name3box">name3</span> then ran to <span class="name2box">name2</span>&#39;s cottage much before <span class="name1box">name1</span>, and knocked on the door. When <span class="name2box">name2</span> opened the door, he locked her up in the cupboard. Wicked <span class="name3box">name3</span> then wore <span class="name2box">name2</span>&#39;s clothes and lay on her bed, waiting for <span class="name1box">name1</span>.
+When <span class="name1box">name1</span> reached the cottage, she entered and went to <span class="name2box">name2</span>&#39;s bedside. &#8220;My! What big <span class="bodypart">bodypart</span> you have, <span class="name3box">name3</span>!&#8221; she said in surprise. &#8220;All the better to <span class = "action1box">action1</span> you with, my dear!&#8221; replied <span class="name2box">name2</span>. &#8220;My! What big <span class="object1box">object1</span>you have, <span class="name2box">name2</span>!&#8221; said <span class="name1box">name1</span>. &#8220;All the better to <span class="action2box"> action2</span> you with, my dear!&#8221; said <span class="name3box">name3</span>. &#8220;What big teeth you have, <span class="name2box">name2</span>!&#8221; said <span class="name1box">name1</span>. &#8220;All the better to eat you with!&#8221; <span class = "name2box" >name2</span> growled pouncing on her. <span class="name1box">name1</span> screamed and the woodcutters in the forest came running to the cottage. They beat <span class="name3box">name3</span> and rescued <span class="name2box">name2</span> from the cupboard. <span class="name2box">name2</span> hugged <span class="name1box">name1</span> with joy. <span class="name3box">name3</span> ran away never to be seen again. <span class = "name1box" >name1</span> had learnt her lesson and never spoke to strangers ever again.</p>
+			</div>
+			<input id='playVoice' type='button' class="btn btn-default" value='Play' />
+			<input id='stopVoice' type='button' class="btn btn-default" value='stop' />
+		</div>
+
 </body>
 </html>
+
+
+
