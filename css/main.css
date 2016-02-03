@@ -11,17 +11,20 @@
 	text-align: center;
 	background-color: white;
 	border-radius: 25px;
-	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 }
 
 #story {
-	top: 25%;
+	top: 125%;
 	background-color: white;
 	padding: 25px;
 	margin: 5px;
 	border-radius: 25px;
+	margin-top: 25%;
+	margin-bottom: 10%;
 }
 
 #footer {
@@ -32,3 +35,4 @@
 	padding: 15px;
 	border-top-left-radius: 15px;
 }
+

@@ -21,8 +21,8 @@ $(document).ready(function() {
 		$('.action2box').html(action2);
 		$('.bodypart').html(bodypart);
 
-		$("#coverdiv").fadeIn(500);
-		$("#objectbox").fadeIn(500);
+		$(".story").fadeIn(500);
+		$(".story").fadeIn(500);
 	});
 	$("#playVoice").click(function() {
 		var story = jQuery('.story').text();
